@@ -1,8 +1,9 @@
 name: Build & Push to Heroku Docker Registry
 on:
   push:
-    branches: [ main ]jobs:
-  build:
+    branches: [ main ]
+jobs:
+   build:
     runs-on: ubuntu-latest
     steps:
     # checkout source
