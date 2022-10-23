@@ -1,4 +1,5 @@
-name: Build & Push to Heroku Docker Registryon:
+name: Build & Push to Heroku Docker Registry
+on:
   push:
     branches: [ main ]jobs:
   build:
